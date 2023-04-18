@@ -258,19 +258,19 @@ namespace Lista6PR2
 
                             case "AM":
 
-                                Console.WriteLine("o estado correspondente é: Amazonas");
+                                Console.WriteLine("o estado é: Amazonas");
 
                                 break;
 
                             case "BA":
 
-                                Console.WriteLine("o estado correspondente é: Bahia");
+                                Console.WriteLine("o estado é: Bahia");
 
                                 break;
 
                             case "CE":
 
-                                Console.WriteLine("o estado correspondente é: Ceará");
+                                Console.WriteLine("o estado é: Ceará");
 
                                 break;
 
@@ -282,121 +282,121 @@ namespace Lista6PR2
 
                             case "ES":
 
-                                Console.WriteLine("o estado correspondente é: Espírito Santo");
+                                Console.WriteLine("o estado é: Espírito Santo");
 
                                 break;
 
                             case "GO":
 
-                                Console.WriteLine("o estado correspondente é: Goiás");
+                                Console.WriteLine("o estado é: Goiás");
 
                                 break;
 
                             case "MA":
 
-                                Console.WriteLine("o estado correspondente é: Maranhão");
+                                Console.WriteLine("o estado é: Maranhão");
 
                                 break;
 
                             case "MT":
 
-                                Console.WriteLine("o estado correspondente é: Mato Grosso");
+                                Console.WriteLine("o estado é: Mato Grosso");
 
                                 break;
 
                             case "MS":
 
-                                Console.WriteLine("o estado correspondente é: Mato Grosso do Sul");
+                                Console.WriteLine("o estado é: Mato Grosso do Sul");
 
                                 break;
 
                             case "MG":
 
-                                Console.WriteLine("o estado correspondente é: Minas Gerais");
+                                Console.WriteLine("o estado é: Minas Gerais");
 
                                 break;
 
                             case "PA":
 
-                                Console.WriteLine("o estado correspondente é: Pará");
+                                Console.WriteLine("o estado é: Pará");
 
                                 break;
 
                             case "PB":
 
-                                Console.WriteLine("o estado correspondente é: Paraíba");
+                                Console.WriteLine("o estado é: Paraíba");
 
                                 break;
 
                             case "PR":
 
-                                Console.WriteLine("o estado correspondente é: Paraná");
+                                Console.WriteLine("o estado é: Paraná");
 
                                 break;
 
                             case "PE":
 
-                                Console.WriteLine("o estado correspondente é: Pernambuco");
+                                Console.WriteLine("o estado é: Pernambuco");
 
                                 break;
 
                             case "PI":
 
-                                Console.WriteLine("o estado correspondente é: Piauí");
+                                Console.WriteLine("o estado é: Piauí");
 
                                 break;
 
                             case "RJ":
 
-                                Console.WriteLine("o estado correspondente é: Rio de Janeiro");
+                                Console.WriteLine("o estado é: Rio de Janeiro");
 
                                 break;
 
                             case "RN":
 
-                                Console.WriteLine("o estado correspondente é: Rio Grande do Norte");
+                                Console.WriteLine("o estado é: Rio Grande do Norte");
 
                                 break;
 
                             case "RS":
 
-                                Console.WriteLine("o estado correspondente é: Rio Grande do Sul");
+                                Console.WriteLine("o estado é: Rio Grande do Sul");
 
                                 break;
 
                             case "RO":
 
-                                Console.WriteLine("o estado correspondente é: Rondônia");
+                                Console.WriteLine("o estado é: Rondônia");
 
                                 break;
 
                             case "RR":
 
-                                Console.WriteLine("o estado correspondente é: Roraima");
+                                Console.WriteLine("o estado é: Roraima");
 
                                 break;
 
                             case "SC":
 
-                                Console.WriteLine("o estado correspondente é: Santa Catarina");
+                                Console.WriteLine("o estado é: Santa Catarina");
 
                                 break;
 
                             case "SP":
 
-                                Console.WriteLine("o estado correspondente é: São Paulo");
+                                Console.WriteLine("o estado é: São Paulo");
 
                                 break;
 
                             case "SE":
 
-                                Console.WriteLine("o estado correspondente é: Sergipe");
+                                Console.WriteLine("o estado é: Sergipe");
 
                                 break;
 
                             case "TO":
 
-                                Console.WriteLine("o estado correspondente é: Tocantins");
+                                Console.WriteLine("o estado é: Tocantins");
 
                                 break;
 
@@ -414,7 +414,7 @@ namespace Lista6PR2
 
                         int m, d;
 
-                        Console.WriteLine("digite o numero do mês (ex: 12)");
+                        Console.WriteLine("digite o mês");
 
                         m = int.Parse(Console.ReadLine());
 
@@ -548,11 +548,11 @@ namespace Lista6PR2
 
                         double alt, kg, imc;
 
-                        Console.WriteLine("Digite sua altura em metros: ");
+                        Console.WriteLine("Digite sua altura (em metros): ");
 
                         alt = double.Parse(Console.ReadLine());
 
-                        Console.WriteLine("Digite seu peso em kg: ");
+                        Console.WriteLine("Digite seu peso (em kilos): ");
 
                         kg = double.Parse(Console.ReadLine());
 
@@ -572,7 +572,7 @@ namespace Lista6PR2
 
                         {
 
-                            Console.WriteLine("você está no peso normal");
+                            Console.WriteLine("você está no peso comum");
 
                             break;
 
@@ -582,7 +582,7 @@ namespace Lista6PR2
 
                         {
 
-                            Console.WriteLine("você está com sobrepeso");
+                            Console.WriteLine("você está acima do peso");
 
                             break;
 
